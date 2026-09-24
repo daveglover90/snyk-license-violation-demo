@@ -1,0 +1,2 @@
+# GPL-2.0-or-later — common copyleft dependency used in many Python stacks
+mysqlclient==2.2.7

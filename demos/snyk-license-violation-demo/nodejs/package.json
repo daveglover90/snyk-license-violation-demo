@@ -1,0 +1,16 @@
+{
+  "name": "acme-proprietary-video-suite",
+  "version": "0.0.1-demo",
+  "description": "Demo only: closed-source app that depends on GPL libraries (intentional policy violation for Snyk training).",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "licenses:local": "npx --yes license-checker --production --summary"
+  },
+  "dependencies": {
+    "ccnetviz": "1.0.19",
+    "ffmpeg-static": "^5.2.0"
+  }
+}
